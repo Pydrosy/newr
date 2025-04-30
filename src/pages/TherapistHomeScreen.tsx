@@ -81,7 +81,7 @@ const TherapistHomeScreen: React.FC = () => {
             id: 'msg-1',
             senderId: 'patient-1',
             receiverId: currentUser?.id || '',
-            content: 'Thank you for yesterday's session, it really helped with my anxiety.',
+            content: "Thank you for yesterday's session, it really helped with my anxiety.",
             timestamp: new Date(Date.now() - 3600000), // 1 hour ago
             read: false
           }
@@ -98,7 +98,7 @@ const TherapistHomeScreen: React.FC = () => {
             id: 'msg-2',
             senderId: 'patient-3',
             receiverId: currentUser?.id || '',
-            content: 'I've been practicing the mindfulness exercises. When can we schedule our next session?',
+            content: "I've been practicing the mindfulness exercises. When can we schedule our next session?",
             timestamp: new Date(Date.now() - 7200000), // 2 hours ago
             read: true
           }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { FitnessContent } from './FitnessContent';
+import { FitnessContent } from '@/types';
 
 // This is a wrapper component that redirects to the main FitnessContent component
 // Keeping both files for compatibility with the route naming in the requirements
@@ -13,7 +13,7 @@ const IndividualFitnessContent: React.FC = () => {
     navigate(`/fitness/content/${params.id}`);
   }, [navigate, params.id]);
   
-  return <FitnessContent />;
+  return null;
 };
 
 export default IndividualFitnessContent;

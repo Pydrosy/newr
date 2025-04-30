@@ -75,8 +75,8 @@ const mockBlogs: BlogPost[] = [
   {
     id: 'blog-3',
     title: 'Building Resilience Through Difficult Times',
-    summary: 'Strategies for developing mental strength when facing life's challenges.',
-    content: 'Resilience isn't about avoiding stress or hardship, but developing healthy ways to cope...',
+    summary: "Strategies for developing mental strength when facing life's challenges.",
+    content: "Resilience isn't about avoiding stress or hardship, but developing healthy ways to cope...",
     author: 'Dr. Aisha Patel',
     coverImage: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e',
     publishedDate: new Date('2023-07-10'),
@@ -198,7 +198,7 @@ export const getChatMessages = async (userId: string, recipientId: string): Prom
       id: 'msg-2',
       senderId: userId,
       receiverId: recipientId,
-      content: 'I'm doing better than yesterday. The exercises are helping.',
+      content: "I'm doing better than yesterday. The exercises are helping.",
       timestamp: new Date('2023-07-15T09:32:00'),
       read: true
     },
@@ -206,7 +206,7 @@ export const getChatMessages = async (userId: string, recipientId: string): Prom
       id: 'msg-3',
       senderId: recipientId,
       receiverId: userId,
-      content: 'That's great to hear! Would you like to discuss any specific challenges?',
+      content: "That's great to hear! Would you like to discuss any specific challenges?",
       timestamp: new Date('2023-07-15T09:33:00'),
       read: true
     },
